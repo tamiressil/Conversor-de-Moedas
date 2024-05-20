@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf6bd;
+}
+
+h2{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  margin: 7px;
+}
+
+.Container label {
+  margin-right: 10px; 
+}
+
+.Container select {
+  margin-right: 10px; /* Adiciona margem à direita para separar o seletor de moeda do input numérico */
+}
+
+.Container-label{
+  margin-bottom: 35px;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+p{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.Container{
+  background-color: #ff99c8;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+
+button {
+  
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+
+.Container input {
+  color: #000; 
+  background-color: #fff; 
+  border-radius: 10px;  
+}
+
+button:hover {
+  border-color: #0000005f;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring
+}
+
+select,
+input[type="number"] {
+  background: white;
+  color: #000;
+}
+
+
+:focus {
+  outline: none;/*tira a borda azul */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /*Tira a aparência  padrão que vem */
+  margin: 0;
+  color: #000;
+
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /
+  
+}
+
+input[type="number"], select {
+  border-radius: 10px;  /* colocou o borde radiu no" De "e "Para"*/
+}
